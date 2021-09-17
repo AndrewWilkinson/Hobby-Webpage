@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 600px)
 {
 	*
@@ -110,5 +111,10 @@ table, th, td {
 
 .popup {
     position: relative;
+}
+
+.card-body
+{
+    background-color: lightgray;
 }
         
