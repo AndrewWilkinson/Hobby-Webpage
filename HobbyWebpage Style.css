@@ -63,6 +63,15 @@ article
     display: flex;
     justify-content: space-around;
 }
+#question
+{
+    display: flex;
+    font-style: italic;
+}
+#answer
+{
+    display: flex;
+}
 
 #gallery
 {
@@ -98,4 +107,8 @@ p
 table, th, td {
     border: 1px solid black;
   }
+
+.popup {
+    position: relative;
+}
         
