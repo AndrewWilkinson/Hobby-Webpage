@@ -3,6 +3,8 @@
 
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="HobbyWebpage Style.css">
     <title>Board Games Overview</title>
 </head>
@@ -65,15 +67,33 @@
                 </div>
             </div>
             <h4>More Examples<h4>
-                    <div id="gallery">
-                        <a href="https://boardgamegeek.com/boardgame/6249/alhambra" target=”_blank” title="Alahambra (Externally sourced image)">
-                            <img src="https://cdn.anyfinder.eu/assets/7R4SMuSbPWBbcvzeruvzzJWlCdeC0w7E8frwaSP8WGL8ohIeJPgk8HPoRls0H56o?"
-                                alt="external image of the game Alahambra">
-                        </a>
-                        <a href="https://boardgamegeek.com/boardgame/199561/sagrada" target=”_blank” title="Sagrada">
-                            <img src="images/Sagrada.jpg" alt="image of the game Sagrada">
-                        </a>
+                <section id="bootstrap-gallery" class="card-group row-cols-12 row-cols-sm-4">
+                    <div class="card">
+                        <img src="images/Sagrada.jpg" class="card-img-top" alt="Image of Sagrada">
+                        <div class="card-body">
+                          <h5 class="card-title">Sagrada</h5>
+                          <p class="card-text">A game about building stain-glass windows using coloured dice</p>
+                          <a href="https://boardgamegeek.com/boardgame/68448/7-wonders" target="blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="images/7 Wonders.jpg" class="card-img-top" alt="Image of 7 Wonders">
+                        <div class="card-body">
+                          <h5 class="card-title">7 Wonders</h5>
+                          <p class="card-text">A game about building wonders of the world using cards</p>
+                          <a href="https://boardgamegeek.com/boardgame/199561/sagrada" target="blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="images/Hanabi 1 person.jpg" class="card-img-top" alt="Image of Hanabi hand">
+                        <div class="card-body">
+                          <h5 class="card-title">Hanabi</h5>
+                          <p class="card-text">A game about cooperating to create a firework display, with challenging limitations on communication </p>
+                          <a href="https://boardgamegeek.com/boardgame/98778/hanabi" target="blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                      </div>
                     </div>
+                </section>
         </article>
     </main>
     <footer>
